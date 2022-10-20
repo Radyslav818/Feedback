@@ -1,0 +1,14 @@
+button {
+  border: none;
+  padding: 10px 83px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Apercu Arabic Pro", sans-serif;
+  margin-bottom: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #fad34f;
+  border-radius: 500px;
+}

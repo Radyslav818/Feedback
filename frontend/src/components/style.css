@@ -1,0 +1,314 @@
+body {
+  font-family: "Apercu Arabic Pro";
+  margin: 0;
+}
+input,
+textarea {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  outline: none;
+  font-family: "Apercu Arabic Pro", sans-serif;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.inputMessage input {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  outline: none;
+  font-family: "Apercu Arabic Pro", sans-serif;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.19);
+}
+form button {
+  border: none;
+  padding: 10px 83px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Apercu Arabic Pro", sans-serif;
+  margin-bottom: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #fad34f;
+  border-radius: 500px;
+  z-index: 3;
+}
+textarea {
+  height: 150px;
+}
+
+.body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.imageMap img {
+  border-radius: 100%;
+  width: 900px;
+  height: 900px;
+  position: absolute;
+  bottom: -0px;
+  left: 700px;
+  object-fit: cover;
+}
+
+.form {
+  margin-left: 200px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.footer {
+  /* border: 1px solid #d8d8d8;
+  background-color: #fafafa;
+  padding-top: 100px;
+  position: relative;
+  bottom: 0; */
+  position: fixed;
+  /* padding: 0px 10px 0px 10px; */
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 130px;
+  border: 1px solid #d8d8d8;
+  background: #fafafa;
+}
+
+.linkidin img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 60px;
+  left: 280px;
+}
+
+.twitter img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 60px;
+  left: 320px;
+}
+
+.facebook img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 60px;
+  left: 360px;
+}
+
+.pinterst img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 60px;
+  left: 400px;
+}
+
+.yellowOpacity img {
+  position: absolute;
+  top: 10px;
+  left: 500px;
+}
+
+.roseSmile img {
+  position: absolute;
+  bottom: 0px;
+  height: 150px;
+}
+
+.yellowSmileFooter img {
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+.greenFooter img {
+  position: absolute;
+  right: 100px;
+  top: 0px;
+}
+
+.roseSmileTwo img {
+  position: absolute;
+  bottom: 0;
+  left: 650px;
+  z-index: 1;
+}
+
+.yellowSmileMap img {
+  position: absolute;
+  bottom: 200px;
+  left: 650px;
+  z-index: 2;
+}
+
+.opacityInput img {
+  position: absolute;
+  top: 80px;
+  left: 72px;
+}
+
+.opacityCloud img {
+  position: absolute;
+  top: 267px;
+  left: 1px;
+}
+
+.opacityButton img {
+  position: absolute;
+  left: 154px;
+  bottom: 27px;
+}
+
+.opacityButton2 img {
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+}
+
+.opacityButton3 img {
+  position: absolute;
+  left: 455px;
+  bottom: 18px;
+}
+
+.opacityUnderSmily img {
+  position: absolute;
+  left: 800px;
+  bottom: -6px;
+}
+
+.opacityAboveSmily img {
+  position: absolute;
+  left: 550px;
+  top: 119px;
+}
+
+.opacityAboveSmily2 img {
+  position: absolute;
+  right: 500px;
+  top: -2px;
+}
+.opacityAboveSmily3 img {
+  position: absolute;
+  left: 500px;
+  top: 63px;
+}
+
+@media screen and (max-width: 480px) {
+  .form {
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .linkidin img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 140px;
+  }
+
+  .twitter img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 180px;
+  }
+
+  .facebook img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 220px;
+  }
+
+  .pinterst img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 260px;
+  }
+  .image_yellow img {
+    display: none;
+  }
+  .roseSmile img {
+    position: absolute;
+    bottom: 0px;
+    left: -26px;
+    height: 150px;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+.image_yellow img {
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+
+/* @media screen and (max-width: 800px) {
+  .form {
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  .linkidin img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+  }
+
+  .twitter img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 150px;
+    left: 160px;
+  }
+
+  .facebook img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 150px;
+    left: 220px;
+  }
+
+  .pinterst img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 150px;
+    left: 280px;
+  }
+} */
